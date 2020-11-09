@@ -1,72 +1,69 @@
-# [Start Bootstrap - Agency](https://startbootstrap.com/theme/agency)
+# [Start Bootstrap - One Page Wonder](https://startbootstrap.com/theme/one-page-wonder/)
 
-[Agency](https://startbootstrap.com/theme/agency) is a one page, agency portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid, modal windows for each portfolio item, and a working PHP based contact form.
+[One Page Wonder](https://startbootstrap.com/theme/one-page-wonder/) is a basic one page template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
 
 ## Preview
 
-[![Agency Preview](https://assets.startbootstrap.com/img/screenshots/themes/agency.png)](https://startbootstrap.github.io/startbootstrap-agency/)
+[![One Page Wonder Preview](https://assets.startbootstrap.com/img/screenshots/themes/one-page-wonder.png)](https://startbootstrap.github.io/startbootstrap-one-page-wonder/)
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-agency/)**
+**[View Live Preview](https://startbootstrap.github.io/startbootstrap-one-page-wonder/)**
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-agency/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
-[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-agency)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-agency/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-agency)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-agency/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-agency?type=dev)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-one-page-wonder/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-one-page-wonder.svg)](https://www.npmjs.com/package/startbootstrap-one-page-wonder)
+[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-one-page-wonder.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-one-page-wonder)
+[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-one-page-wonder/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-one-page-wonder)
+[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-one-page-wonder/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-one-page-wonder?type=dev)
 
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
 
-- [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/agency)
-- Install using npm: `npm i startbootstrap-agency`
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-agency.git`
-- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-agency)
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/one-page-wonder/)
+* Install via npm: `npm i startbootstrap-one-page-wonder`
+* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-one-page-wonder.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-one-page-wonder)
 
 ## Usage
 
 ### Basic Usage
 
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
 ### Advanced Usage
 
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
+After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-#### npm Scripts
+#### Gulp Tasks
 
-- `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
-- `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
-- `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
-- `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
-- `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
-- `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
-- `npm run start:debug` runs the project in debug mode
-- `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
+* `gulp` the default task that builds everything
+* `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
+* `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+* `gulp js` minifies the themes JS file
+* `gulp vendor` copies dependencies from node_modules to the vendor directory
 
-You must have npm installed in order to use this build environment.
+You must have npm installed globally in order to use this build environment.
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-agency/issues) here on GitHub or leave a comment on the [theme overview page at Start Bootstrap](https://startbootstrap.com/theme/agency).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-one-page-wonder/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/one-page-wonder/).
 
 ## About
 
-Start Bootstrap is an open source library of free Bootstrap themes and templates. All of the free themes and templates on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-- <https://startbootstrap.com>
-- <https://twitter.com/SBootstrap>
+* <https://startbootstrap.com>
+* <https://twitter.com/SBootstrap>
 
 Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
 
-- <https://davidmiller.io>
-- <https://twitter.com/davidmillerhere>
-- <https://github.com/davidtmiller>
+* <https://davidmiller.io>
+* <https://twitter.com/davidmillerhere>
+* <https://github.com/davidtmiller>
 
 Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
 
-Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE) license.
+Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/gh-pages/LICENSE) license.
