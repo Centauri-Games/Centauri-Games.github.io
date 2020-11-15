@@ -1,7 +1,7 @@
 {
-    "title": "Freelancer",
-    "name": "startbootstrap-freelancer",
-    "version": "6.0.5",
+    "title": "Creative",
+    "name": "startbootstrap-creative",
+    "version": "6.0.4",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A freelancer portfolio HTML theme for Bootstrap.",
+    "description": "Creative is a stylish one page HTML theme built with Bootstrap.",
     "keywords": [
         "css",
         "sass",
@@ -23,9 +23,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/freelancer",
+    "homepage": "https://startbootstrap.com/theme/creative",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-freelancer/issues",
+        "url": "https://github.com/StartBootstrap/startbootstrap-creative/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -35,7 +35,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-freelancer.git"
+        "url": "https://github.com/StartBootstrap/startbootstrap-creative.git"
     },
     "dependencies": {
         "bootstrap": "4.5.3"
