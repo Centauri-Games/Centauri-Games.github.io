@@ -370,6 +370,10 @@ a:hover, a:focus, a:active {
     background-color: #000000 !important
 }
 
+.bg-darkgray {
+    background-color: #404040 !important
+}
+
 .text-primary {
   color: #1D809F !important;
 }
