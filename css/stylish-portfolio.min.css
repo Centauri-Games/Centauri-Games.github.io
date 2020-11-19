@@ -108,6 +108,8 @@ h1, h2, h3, h4, h5, h6 {
         }
 }
 
+
+/*MENU DESPLEGABLE FONDO*/
 #sidebar-wrapper {
     position: fixed;
     z-index: 2;
@@ -116,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     transition: all .4s ease 0s;
     transform: translateX(250px);
-    background: #1d809f;
+    background: #000000;
     border-left: 1px solid rgba(255,255,255,.1)
 }
 
@@ -189,12 +191,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .menu-toggle:hover {
-        background: #343a40
+        background: #404040
     }
 
+    /*ICONO*/
 .service-icon {
-    background-color: #fff;
-    color: #1d809f;
+    background-color: #000000;
+    color: #FFFFFF;
     height: 7rem;
     width: 7rem;
     display: block;
@@ -286,8 +289,9 @@ h1, h2, h3, h4, h5, h6 {
             clip-path: inset(2rem)
         }
 
+        /*SOMBREADO*/
         .portfolio-item:hover .caption {
-            background-color: rgba(29,128,159,.9);
+            background-color: rgba(236,184,7,.4);
             -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem)
         }
@@ -304,30 +308,33 @@ footer.footer {
     padding-bottom: 5rem
 }
 
+/*BOTONES DE REDES*/
     footer.footer .social-link {
         display: block;
         height: 4rem;
         width: 4rem;
         line-height: 4.3rem;
         font-size: 1.5rem;
-        background-color: #1d809f;
+        background-color: #000000;
         transition: background-color .15s ease-in-out;
         box-shadow: 0 3px 3px 0 rgba(0,0,0,.1)
     }
 
+    /*botones de redes sociales sombreado*/
         footer.footer .social-link:hover {
-            background-color: #155d74;
+            background-color: rgba(236,184,7,.4);
             text-decoration: none
         }
 
 a {
-    color: #1d809f
+    color: #000000
 }
 
     a:active, a:focus, a:hover {
-        color: #155d74
+        color: #404040
     }
 
+    /*BOTONES*/
 .btn-primary {
     background-color: #1d809f !important;
     border-color: #1d809f !important;
@@ -335,8 +342,8 @@ a {
 }
 
     .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-        background-color: #155d74 !important;
-        border-color: #155d74 !important
+        background-color: #404040 !important;
+        border-color: #404040 !important
     }
 
 .btn-secondary {
@@ -368,7 +375,7 @@ a {
 }
 
 .bg-darkgray {
-    background-color: #404040 !important
+    background-color: #303030 !important
 }
 
 .text-primary {
