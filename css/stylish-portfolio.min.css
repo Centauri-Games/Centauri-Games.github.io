@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 
         /*SOMBREADO*/
         .portfolio-item:hover .caption {
-            background-color: rgba(236,184,7,.4);
+            background-color: rgba(29,128,159,.4);
             -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem)
         }
